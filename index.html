@@ -1,9 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Fax Echo - Mobile Solutions for Fax Transactions</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fax Echo — Secure Fax App for Professionals</title>
+  <meta name="description" content="Fax Echo keeps your fax workflow simple, secure, and mobile. Archive, track, and manage faxes right from your iPhone or iPad using eFax Corporate API." />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+  <link rel="icon" type="image/png" href="favicon.png">
+
 <style>
   body { font-family: Arial, sans-serif; margin: 0; padding: 20px; }
   header, footer { background-color: #282c34; color: white; padding: 10px 20px; }
@@ -11,23 +15,229 @@
   a { color: #61dafb; text-decoration: none; }
   nav a { margin: 0 10px; }
 </style>
+
 </head>
-<body>
+
 <header>
-  <h1>Fax Echo</h1>
-  <nav>
+     <nav>
     <a href="index.html">Home</a>
     <a href="pricing.html">Pricing</a>
     <a href="contact.html">Contact</a>
   </nav>
 </header>
-<main>
-  <h2>Welcome to Fax Echo</h2>
-  <p>Your reliable partner for secure and easy faxing.</p>
-  <p>Sign up now and enjoy seamless integration with eFax Corporate.</p>
-</main>
-<footer>
-  <p>&copy; 2025 Tatsuya Moriguchi</p>
-</footer>
+
+<body class="bg-gray-50 text-gray-800">
+
+  <!-- Hero Section -->
+  <header class="text-center py-20 bg-gradient-to-b from-indigo-600 to-indigo-800 text-white">
+    <h1 class="text-4xl font-bold mb-4">Fax Echo</h1>
+    <p class="text-xl mb-6">Archive faxes, stay organized, and keep your workflow smooth.</p>
+    <a href="#demo" class="bg-white text-indigo-700 px-6 py-3 rounded-lg font-semibold hover:bg-indigo-100 transition">Watch Demo</a>
+
+  </header>
+
+  <!-- Features -->
+<section class="max-w-6xl mx-auto py-16 px-6 grid md:grid-cols-3 gap-10 text-center">
+
+  <!-- Security -->
+  <div>
+    <img src="icons/lock.shield.png" class="mx-auto mb-4 h-12" alt="Security Icon">
+    <h3 class="font-semibold text-lg mb-2">Secure & Compliant</h3>
+    <p>Built on eFax Corporate API with TLS encryption — your faxes are safe in transit and at rest.</p>
+  </div>
+
+
+  <!-- View Fax -->
+  <div>
+    <img src="icons/doc.fill.png" class="mx-auto mb-4 h-12" alt="View Fax Icon">
+    <h3 class="font-semibold text-lg mb-2">View Fax</h3>
+    <p>Open, zoom, and preview any fax instantly with a built-in viewer optimized for iPhone and iPad.</p>
+  </div>
+
+  <!-- Reply to Sender by Fax-->
+  <div>
+    <img src="icons/arrowshape.turn.up.left.circle.png" class="mx-auto mb-4 h-12" alt="Reply Icon">
+    <h3 class="font-semibold text-lg mb-2">Reply to Sender by Fax</h3>
+    <p>Respond instantly to received faxes without leaving Fax Echo — streamline communication with one tap.</p>
+  </div>
+
+  <!-- Bulk Reply by Fax-->
+  <div>
+    <img src="icons/arrowshape.turn.up.left.2.circle.png" class="mx-auto mb-4 h-12" alt="Bulk Reply Icon">
+    <h3 class="font-semibold text-lg mb-2">Bulk Reply by Fax</h3>
+    <p>Reply to multiple senders at once. Ideal for busy offices handling high fax volumes.</p>
+  </div>
+
+  <!-- Reply by Phone -->
+  <div>
+    <img src="icons/phone.bubble.fill.png" class="mx-auto mb-4 h-12" alt="Phone Reply Icon">
+    <h3 class="font-semibold text-lg mb-2">Reply by Phone</h3>
+    <p>Call fax senders directly from the app when fax isn’t enough.</p>
+  </div>
+
+  <!-- Reply by Text -->
+  <div>
+    <img src="icons/text.bubble.fill.png" class="mx-auto mb-4 h-12" alt="Text Message Reply Icon">
+    <h3 class="font-semibold text-lg mb-2">Reply by Text Message</h3>
+    <p>Send a quick SMS reply to fax senders — perfect for confirmations or updates.</p>
+  </div>
+  
+  <!-- Spam Shield -->
+  <div>
+    <img src="icons/shield.lefthalf.filled.trianglebadge.exclamationmark.png" class="mx-auto mb-4 h-12" alt="Spam Shield Icon">
+    <h3 class="font-semibold text-lg mb-2">Spam Shield</h3>
+    <p>Automatically block junk faxes using smart TSID and number recognition — your inbox stays clean.</p>
+  </div>
+
+  <!-- Manage Spam -->
+  <div>
+    <img src="icons/shield.checkered.png" class="mx-auto mb-4 h-12" alt="Manage Spam Icon">
+    <h3 class="font-semibold text-lg mb-2">Manage Spam Data</h3>
+    <p>View and refine spam fax records, keeping only what’s useful.</p>
+  </div>
+
+  <!-- Exclude Combo -->
+  <div>
+    <img src="icons/shield.lefthalf.filled.trianglebadge.exclamationmark.png" class="mx-auto mb-4 h-12" alt="Exclude Combo Icon">
+    <h3 class="font-semibold text-lg mb-2">Exclude Specific TSID & Fax</h3>
+    <p>Remove trusted number–TSID pairs from your spam list automatically.</p>
+  </div>
+
+  <!-- Archive Faxes -->
+     <div>
+      <img src="icons/tray.and.arrow.down.fill.png" class="mx-auto mb-4 h-12" alt="Archive Icon">
+      <h3 class="font-semibold text-lg mb-2">Smart Archive</h3>
+      <p>Hide faxes from your inbox without deleting them — keep your workspace clutter-free.</p>
+    </div>
+
+
+  <!-- Add Contact -->
+  <div>
+    <img src="icons/person.crop.circle.badge.plus.png" class="mx-auto mb-4 h-12" alt="Add Contact Icon">
+    <h3 class="font-semibold text-lg mb-2">Add Contact from Fax Info</h3>
+    <p>Save fax senders to your iOS Contacts directly from their TSID or fax number.</p>
+  </div>
+
+  <!-- Lookup in Contacts -->
+  <div>
+    <img src="icons/person.text.rectangle.png" class="mx-auto mb-4 h-12" alt="Contact Lookup Icon">
+    <h3 class="font-semibold text-lg mb-2">Find Sender in Contacts</h3>
+    <p>Automatically match incoming faxes with your existing iOS Contacts for instant identification.</p>
+  </div>
+
+  <!-- Send Fax -->
+  <div>
+    <img src="icons/paperplane.circle.fill.png" class="mx-auto mb-4 h-12" alt="Send Fax Icon">
+    <h3 class="font-semibold text-lg mb-2">Send Fax with Attachments</h3>
+    <p>Upload PDFs, photos, or documents and send them securely via eFax Corporate API.</p>
+  </div>
+
+  <!-- Trace Fax -->
+  <div>
+    <img src="icons/point.topleft.down.to.point.bottomright.curvepath.png" class="mx-auto mb-4 h-12" alt="Trace Fax Icon">
+    <h3 class="font-semibold text-lg mb-2">Trace Fax Status</h3>
+    <p>Track delivery and reply status in real time — never lose sight of a fax again.</p>
+  </div>
+
+  <!-- Filter by Duration -->
+  <div>
+    <img src="icons/calendar.badge.clock.png" class="mx-auto mb-4 h-12" alt="Inbox Duration Icon">
+    <h3 class="font-semibold text-lg mb-2">Inbox Time Filter</h3>
+    <p>Select how many days of received faxes to display in your Inbox — stay focused and clutter-free.</p>
+  </div>
+
+  <!-- Customize Cover Page -->
+  <div>
+    <img src="icons/doc.badge.gearshape.png" class="mx-auto mb-4 h-12" alt="Customize Cover Icon">
+    <h3 class="font-semibold text-lg mb-2">Customizable Cover Page</h3>
+    <p>Personalize fax cover pages and message templates to fit your brand or workflow.</p>
+  </div>
+
+  <!-- Customize Text Message -->
+  <div>
+    <img src="icons/plus.bubble.png" class="mx-auto mb-4 h-12" alt="Text Message Icon">
+    <h3 class="font-semibold text-lg mb-2">Custom Text Message</h3>
+    <p>Pre-write SMS templates for fast and consistent responses, and customize as needed.</p>
+  </div>
+
+  <!-- Country Code -->
+  <div>
+    <img src="icons/globe.badge.chevron.backward.png" class="mx-auto mb-4 h-12" alt="Country Code Icon">
+    <h3 class="font-semibold text-lg mb-2">Frequent Country Code</h3>
+    <p>Save and select preferred international fax country codes for faster sending.</p>
+  </div>
+
+  
+  <!-- Notifications -->
+  <div>
+    <img src="icons/info.circle.png" class="mx-auto mb-4 h-12" alt="Notifications Icon">
+    <h3 class="font-semibold text-lg mb-2">Fax Echo Info Updates</h3>
+    <p>Stay informed with maintenance and feature promotion notifications — right in the app.</p>
+  </div>
+
+  <!-- Biometric Login -->
+  <div>
+    <img src="icons/faceid.png" class="mx-auto mb-4 h-12" alt="Biometric Icon">
+    <h3 class="font-semibold text-lg mb-2">Biometric Login</h3>
+    <p>Sign in quickly and securely with Face ID or Touch ID authentication.</p>
+  </div>
+
+  <!-- Contact eFax Sales -->
+  <div>
+    <img src="icons/person.crop.rectangle.stack.png" class="mx-auto mb-4 h-12" alt="Sales Contact Icon">
+    <h3 class="font-semibold text-lg mb-2">Contact eFax Sales</h3>
+    <p>Reach out to eFax Corporate representatives directly from within Fax Echo.</p>
+  </div>
+
+  <!-- Manage Subscription -->
+  <div>
+    <img src="icons/creditcard.png" class="mx-auto mb-4 h-12" alt="Subscription Icon">
+    <h3 class="font-semibold text-lg mb-2">Manage Subscription</h3>
+    <p>View, modify, or cancel your Fax Echo plan anytime — with no hidden steps.</p>
+  </div>
+
+  <!-- Contact Support -->
+  <div>
+    <img src="icons/lifepreserver.png" class="mx-auto mb-4 h-12" alt="Support Icon">
+    <h3 class="font-semibold text-lg mb-2">In-App Support</h3>
+    <p>Contact Fax Echo support directly from the app — attach screenshots or files for quick assistance.</p>
+  </div>
+
+  <!-- Real Time Alert -->     
+  <div>
+      <img src="icons/app.badge.png" class="mx-auto mb-4 h-12" alt="Notification Icon">
+      <h3 class="font-semibold text-lg mb-2">Real-Time Alerts <span class="text-gray-400">(Coming Soon in Future Version)</span></h3>
+      <p>Instant push notifications when new faxes arrive, even after hours or on the go.</p>
+    </div>
+
+</section>
+
+  <!-- Demo Section -->
+  <section id="demo" class="bg-white py-20 text-center">
+    <h2 class="text-3xl font-bold mb-6">See Fax Echo in Action</h2>
+    <p class="text-gray-600 mb-8">Watch how Fax Echo simplifies fax management for professionals.</p>
+    <div class="max-w-3xl mx-auto">
+      <iframe class="w-full aspect-video rounded-xl shadow-lg"
+        src="https://www.youtube.com/embed/YOUR_DEMO_VIDEO_ID"
+        title="Fax Echo Demo" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </section>
+
+  <!-- Call to Action -->
+  <section class="py-20 bg-indigo-700 text-center text-white">
+    <h2 class="text-3xl font-bold mb-4">Start Managing Faxes Smarter</h2>
+    <p class="text-lg mb-6">Join professionals who trust Fax Echo for secure, mobile fax workflow.</p>
+    <a href="mailto:admin_support@faxecho.com" class="bg-white text-indigo-700 px-6 py-3 rounded-lg font-semibold hover:bg-indigo-100 transition">Contact Us</a>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center text-gray-500 text-sm py-6 bg-gray-100">
+    <p>© 2025 Fax Echo. All rights reserved.</p>
+    <p class="mt-2">
+      <a href="https://www.linkedin.com/in/YOUR-LINKEDIN" class="hover:underline">LinkedIn</a> |
+      <a href="https://www.youtube.com/@YOUR-CHANNEL" class="hover:underline">YouTube</a>
+    </p>
+  </footer>
+
 </body>
 </html>
